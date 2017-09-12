@@ -22,7 +22,19 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
           type="text/css">
 
+	<!-- Audio JS -->
+ 	<script src="./audiojs/audio.min.js"></script>	
+    <script>
+	    audiojs.events.ready(function() {
+	      audiojs.createAll();
+	    });
+	</script>
 
+	<!-- World Map -->
+	<link rel="stylesheet" href="css/jquery-jvectormap-2.0.1.css" type="text/css" media="screen"/>
+  	<script src="js/jquery-1.8.2.min.js"></script>
+  	<script src="js/jquery-jvectormap-2.0.3.min.js"></script>
+  	<script src="js/jquery-jvectormap-world-mill.js"></script>
 </head>
 
 <body id="page-top" class="index" onload="$.scoped();">
@@ -80,7 +92,7 @@
                     <span class="skills">Programmer - Music Lover - Traveller - Gamer</span>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="https://www.dropbox.com/s/tidoyu4xl50bhue/CV.pdf?dl=1" class="btn btn-lg btn-outline">
+                    <a href="https://www.dropbox.com/s/wlpxt32dkvdrsqt/CV_1p.pdf?dl=1" class="btn btn-lg btn-outline">
                         <i class="fa fa-download"></i> CV
                     </a>
                 </div>
@@ -97,7 +109,12 @@
                 <h2>Programmer</h2>
                 <hr class="star-primary">
             </div>
-            <p>I code for a living, and for fun. </p>
+            <p>
+            01000101 01000001 01010100 00101100<br> 
+            00100000 01010011 01001100 01000101<br> 
+            01000101 01010000 00101100 00100000<br> 
+            01000011 01001111 01000100 01000101
+            </p>
             <a href="https://github.com/JRChow" class="btn-lg"><span class="sr-only">Github</span><i
                     class="fa fa-github fa-5x" aria-hidden="true"></i></a>
         </div>
@@ -106,39 +123,42 @@
 
 <!-- Piano Section -->
 <section class="success" id="music_lover">
-    <div class="row">
-        <div class="col-lg-12 text-center">
-            <h2>Music Lover</h2>
-            <hr class="star-light">
-            <audio controls>
-                <source src="media/TheMusicalOffering.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-        </div>
-        </div>
+	<div class="container text-center">
+    	<div class="row">
+        	<div class="col-lg-12 text-center">
+            	<h2>Music Lover</h2>
+            	<hr class="star-light">
+        	</div>
+    	</div>
+    	<p>Coming Soon...</p>
     </div>
 </section>
 
 <!-- Traveller Section -->
 <section id="traveller">
+<div class="container text-center">
     <div class="row">
         <div class="col-lg-12 text-center">
             <h2>Traveller</h2>
             <hr class="star-primary">
         </div>
     </div>
-    </div>
+	<p>Coming Soon...</p>
+</div>
 </section>
+
 
 <!-- Gamer Section -->
 <section class="success" id="gamer">
+<div class="container text-center">
     <div class="row">
         <div class="col-lg-12 text-center">
             <h2>Gamer</h2>
             <hr class="star-light">
         </div>
     </div>
-    </div>
+    <p>Coming Soon...</p>
+</div>
 </section>
 
 <!-- Footer -->
